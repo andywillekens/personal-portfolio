@@ -41,7 +41,7 @@ docker compose down
 If you encounter any issues, try rebuilding the containers:
 
 ```bash
-docker compose up --build --force-recreate
+docker compose up -d --build --force-recreate
 ```
 
 ## Contributing
