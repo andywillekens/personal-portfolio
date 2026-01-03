@@ -1,0 +1,16 @@
+services:
+  app:
+    build:
+      dockerfile: Dockerfile
+      context: ./frontend
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./frontend:/frontend
+      - node_modules:/frontend/node_modules
+    command: npm run dev
+    restart: always
+
+volumes:
+  node_modules:
+    driver: local
