@@ -1,20 +1,22 @@
 {
-  "name": "frontend",
-  "type": "module",
+  "name": "personal-portfolio",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "preview": "nuxt preview"
   },
   "dependencies": {
+    "@nuxt/content": "^3.10.0",
     "@nuxt/fonts": "^0.12.1",
     "@nuxt/icon": "^2.1.1",
     "@nuxt/image": "^2.0.0",
+    "@nuxtjs/seo": "^3.3.0",
+    "@tailwindcss/vite": "^4.1.18",
+    "better-sqlite3": "^12.5.0",
     "nuxt": "^4.2.2",
-    "vue": "^3.5.26",
-    "vue-router": "^4.6.4"
+    "tailwindcss": "^4.1.18"
   }
 }

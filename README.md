@@ -1,6 +1,6 @@
 # Personnal portfolio
 
-This is my personal portfolio hosted on: [https://www.andywillekens.nl](https://www.andywillekens.nl)
+This is my personal portfolio hosted on: [https://andywillekens.nl](https://andywillekens.nl)
 
 ## Requirements
 
