@@ -1,0 +1,10 @@
+{
+  "title": "Power dashboard",
+  "description": "Een dashboard gebouwd om data vanuit de Toon API en AP Systems te combineren. AP Systems had geen publieke API, hier gebruik ik nuxt server om toch de benodige data te weer te geven.",
+  "order": 1,
+  "image": "assets/images/projects/dashboard.jpg",
+  "urls": {
+    "live": "https://power.andywillekens.nl",
+    "source": "https://github.com/andywillekens/power-dashboard"
+  }
+}

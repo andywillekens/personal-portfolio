@@ -1,5 +1,72 @@
 @import 'tailwindcss';
 
-body {
-  @apply bg-black text-white;
+@theme {
+  --color-purple-50: oklch(0.958 0.019 282.83);
+  --color-purple-100: oklch(0.915 0.038 285.66);
+  --color-purple-200: oklch(0.832 0.078 283.78);
+  --color-purple-300: oklch(0.748 0.12 282.58);
+  --color-purple-400: oklch(0.666 0.163 279.83);
+  --color-purple-500: oklch(0.585 0.204 276.79);
+  --color-purple-600: oklch(0.506 0.243 271.87);
+  --color-purple-700: oklch(0.42 0.239 268.03);
+  --color-purple-800: oklch(0.329 0.188 268);
+  --color-purple-900: oklch(0.238 0.135 267.94);
+  --color-purple-950: oklch(0.187 0.108 268.05);
+
+  --inset-shadow-body: 0 0 0 4rem var(--color-purple-500);
+
+  --font-body: 'Poppins', sans-serif;
+
+  --cursor-default: url('/assets/images/cursors/default.svg') 4 2, default;
+  --cursor-pointer: url('/assets/images/cursors/link.svg') 4 2, pointer;
+}
+
+@layer base {
+  html,
+  body,
+  #__nuxt {
+    @apply flex h-screen flex-col cursor-default;
+  }
+
+  *,
+  *::before,
+  *::after {
+    @apply cursor-default;
+  }
+
+  body {
+    @apply bg-purple-500 font-body text-purple-950;
+  }
+
+  body::before {
+    @apply content-[''] pointer-events-none fixed inset-0 bg-linear-to-b from-white to-purple-100 m-4 p-4 rounded-3xl -z-1;
+  }
+
+  body::after {
+    @apply content-[''] pointer-events-none fixed inset-0 z-1 border-t-16 border-b-16 border-purple-500;
+  }
+
+  #__nuxt {
+    @apply flex-1;
+  }
+
+  h1 {
+    @apply text-3xl font-bold;
+  }
+  h2 {
+    @apply text-2xl font-bold;
+  }
+  h3 {
+    @apply text-xl font-bold;
+  }
+  h4 {
+    @apply text-lg font-bold;
+  }
+  h5 {
+    @apply text-base font-bold;
+  }
+
+  a {
+    @apply cursor-pointer;
+  }
 }

@@ -1,0 +1,25 @@
+{
+  "company": "NOBEARS",
+  "title": "Front-end developer",
+  "activities": [
+    "Het ontwikkelen van features voor applicaties en websites gebouwd met Nuxt, TypeScript & GraphQL",
+    "Onderhoud en doorontwikkeling van bestaande websites",
+    "Implementatie van het Statamic content management systeem"
+  ],
+  "employmentPeriod_start": "2023-05-01",
+  "employmentPeriod_end": "2024-06-30",
+  "techStack": [
+    "Javascript/Typescript",
+    "Vue/Nuxt",
+    "GraphQL",
+    "Tailwind",
+    "Netlify/Vercel",
+    "Git",
+    "REST API's",
+    "Statamic",
+    "Laravel",
+    "Figma",
+    "Jira"
+  ],
+  "locations": ["Heusden"]
+}

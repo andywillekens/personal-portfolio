@@ -1,0 +1,9 @@
+{
+  "title": "PGB Calculator",
+  "description": "Met deze rekentool bereken je eenvoudig welk bedrag je als vrijwillige storting kunt overmaken binnen je Persoonsgebonden Budget (PGB).",
+  "order": 4,
+  "image": "assets/images/projects/pgb.jpg",
+  "urls": {
+    "live": "https://pgb.andywillekens.nl/"
+  }
+}

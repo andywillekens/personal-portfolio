@@ -1,0 +1,10 @@
+{
+  "title": "PopsUp Website",
+  "description": "Om PopsUp op de markt te brengen heb ik een website gebouwd om het product te verkopen.",
+  "order": 2,
+  "image": "assets/images/projects/popsup-website.png",
+  "urls": {
+    "live": "https://popsup.andywillekens.nl/",
+    "source": "https://github.com/andywillekens/popsup-website"
+  }
+}

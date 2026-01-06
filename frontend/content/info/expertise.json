@@ -1,0 +1,20 @@
+{
+  "order": 2,
+  "title": "Expertise",
+  "text": "Creativiteit en techniek vormen de kern van mijn identiteit als Front-end developer. Ik heb o.a. ervaring met:",
+  "data": {
+    "skills": [
+      "Javascript/Typescript",
+      "Vue/Nuxt",
+      "React/Next.js",
+      "Tailwind CSS",
+      "Laravel",
+      "Docker",
+      "Git",
+      "GraphQL",
+      "MySQL",
+      "Figma",
+      "Adobe CC"
+    ]
+  }
+}

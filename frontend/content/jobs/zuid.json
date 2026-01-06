@@ -1,0 +1,25 @@
+{
+  "company": "ZUID",
+  "title": "Senior Front-end developer",
+  "activities": [
+    "Het ontwikkelen van applicaties en websites gebouwd o.b.v Next.js en Laravel Backpack",
+    "Onderhoud en doorontwikkeling van bestaande websites en applicaties"
+  ],
+  "employmentPeriod_start": "2024-08-19",
+  "employmentPeriod_end": "heden",
+  "techStack": [
+    "Javascript/Typescript",
+    "React/Next.js",
+    "GraphQL",
+    "Tailwind",
+    "Git",
+    "Figma",
+    "Docker",
+    "Backpack for laravel",
+    "GitHub",
+    "Adobe CC",
+    "Jira",
+    "ClickUp"
+  ],
+  "locations": ["Tilburg"]
+}

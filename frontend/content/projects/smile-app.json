@@ -1,0 +1,10 @@
+{
+  "title": "Smile App",
+  "description": "Een test om native MediaDevices web API's uit te proberen binnen Nuxt.",
+  "order": 3,
+  "image": "assets/images/projects/smile.jpg",
+  "urls": {
+    "live": "https://smile.andywillekens.nl",
+    "source": "https://github.com/andywillekens/smile"
+  }
+}

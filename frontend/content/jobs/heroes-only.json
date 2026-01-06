@@ -1,0 +1,25 @@
+{
+  "company": "Heroes Only",
+  "title": "Front-end developer",
+  "activities": [
+    "Het ontwikkelen van pop-up formulieren, inschrijf pagina’s, interne applicaties en display campagnes",
+    "Onderhoud en doorontwikkeling van bestaande pop-up formulieren en inschrijf pagina’s",
+    "Email templates voor klanten coderen en testen",
+    "Meedraaien met de servicedesk"
+  ],
+  "employmentPeriod_start": "2019-12-01",
+  "employmentPeriod_end": "2023-04-01",
+  "techStack": [
+    "Javascript/Typescript",
+    "React/Next.js",
+    "Express.js",
+    "Git",
+    "Netlify",
+    "REST API's",
+    "PHP",
+    "Adobe CC",
+    "GitLab & GitHub",
+    "Jira"
+  ],
+  "locations": ["Breda"]
+}

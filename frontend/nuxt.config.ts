@@ -37,5 +37,12 @@ export default defineNuxtConfig({
         // { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' }
       ]
     }
+  },
+  fonts: {
+    defaults: {
+      weights: [200, 400, 500, 700],
+      styles: ['normal', 'italic'],
+      subsets: ['latin']
+    }
   }
 })

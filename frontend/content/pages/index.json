@@ -1,0 +1,17 @@
+{
+  "title": "Front-end developer (Vue/Nuxt)",
+  "description": "Een creatieve front-end developer met meer dan 14+ jaar aan ervaring in development en design.",
+  "layout": "home",
+  "body": {
+    "hero": {
+      "pre": "👋🏼 Hi, ik ben Andy,",
+      "h1": "Een creatieve front-end developer met meer dan 14+ jaar aan ervaring in development en design.",
+      "avatar": {
+        "src": "assets/images/andy.jpg",
+        "alt": "Andy Willekens",
+        "width": 244,
+        "height": 244
+      }
+    }
+  }
+}

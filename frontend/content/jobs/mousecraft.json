@@ -1,0 +1,15 @@
+{
+  "company": "Mousecraft Interactive Design",
+  "title": "Front-end developer",
+  "activities": [
+    "Het ontwikkelen van maatwerk websites en webshops",
+    "Onderhoud en doorontwikkeling van bestaande websites en webshops",
+    "Implementatie van het Mousecraft CMS",
+    "Websites ontwerpen",
+    "Meedraaien met de servicedesk"
+  ],
+  "employmentPeriod_start": "2012-01-01",
+  "employmentPeriod_end": "2013-07-01",
+  "techStack": ["Javascript", "jQuery", "HTML", "CSS", "PHP", "Adobe CC"],
+  "locations": ["Rotterdam"]
+}
