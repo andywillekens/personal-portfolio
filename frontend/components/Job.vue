@@ -14,6 +14,5 @@ defineProps<{
       <Activities :activities="job.activities" />
       <TechStack :techStack="job.techStack" />
     </section>
-    <footer></footer>
   </Card>
 </template>

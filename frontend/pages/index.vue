@@ -16,6 +16,10 @@ const { data: profile } = await useAsyncData('profile', () =>
   queryCollection('profile').order('order', 'ASC').all()
 )
 
+const { data: info } = await useAsyncData('generalInfo', () =>
+  queryCollection('generalInfo').order('order', 'ASC').all()
+)
+
 useHead({
   titleTemplate: () => {
     return page?.value ? `${page.value.title} %separator %siteName` : '%siteName'
@@ -28,6 +32,6 @@ useHead({
 
 <template>
   <NuxtLayout name="home">
-    <Content :page="page" :projects="projects" :jobs="jobs" :profile="profile" />
+    <Content :page="page" :projects="projects" :jobs="jobs" :profile="profile" :info="info" />
   </NuxtLayout>
 </template>

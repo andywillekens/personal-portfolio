@@ -4,7 +4,7 @@ defineProps<{
 }>()
 </script>
 <template>
-  <section class="flex flex-col gap-4">
+  <section class="flex flex-col gap-16">
     <Project v-for="project in projects" :key="project.id" :project="project" />
   </section>
 </template>

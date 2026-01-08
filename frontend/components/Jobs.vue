@@ -4,7 +4,7 @@ defineProps<{
 }>()
 </script>
 <template>
-  <section class="flex flex-col gap-4">
+  <section class="flex flex-col gap-16">
     <Job v-for="job in jobs" :key="job.id" :job="job" />
   </section>
 </template>

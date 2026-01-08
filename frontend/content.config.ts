@@ -48,6 +48,18 @@ export default defineContentConfig({
           skills: z.array(z.string())
         })
       })
+    }),
+    generalInfo: defineCollection({
+      type: 'data',
+      source: 'general-info/**/*.json',
+      schema: z.object({
+        order: z.number(),
+        title: z.string(),
+        text: z.string(),
+        data: z.object({
+          skills: z.array(z.string())
+        })
+      })
     })
   }
 })

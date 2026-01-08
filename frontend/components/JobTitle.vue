@@ -7,6 +7,6 @@ defineProps<Props>()
 </script>
 <template>
   <h1 class="text-xl font-normal font-body">
-    {{ title }} @ <span class="font-bold font-head">{{ companyName }}</span>
+    {{ title }} @ <span class="font-bold text-purple-500">{{ companyName }}</span>
   </h1>
 </template>

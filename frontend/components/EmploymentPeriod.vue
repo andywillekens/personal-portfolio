@@ -17,8 +17,8 @@ const end = computed(() => {
 })
 </script>
 <template>
-  <p class="flex items-center gap-2">
-    <Icon name="ph:calendar-dots" />
+  <p class="flex items-center gap-1.5 pb-4">
+    <Icon name="ph:calendar-dots" class="text-purple-500" />
     {{ start }}
     t/m
     {{ end }}

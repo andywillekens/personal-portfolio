@@ -1,4 +1,9 @@
 <script lang="ts" setup>
+type Info = {
+  title: string
+  text: string
+}
+
 type Project = {
   title: string
   description?: string
@@ -34,6 +39,7 @@ const props = defineProps<{
   projects?: Project[]
   jobs?: Job[]
   profile?: Profile[]
+  info?: Info[]
 }>()
 
 const content = computed(() => {
@@ -43,7 +49,8 @@ const content = computed(() => {
     ...body,
     projects: props.projects,
     jobs: props.jobs,
-    profile: props.profile
+    profile: props.profile,
+    info: props.info
   }
 })
 </script>
@@ -59,6 +66,7 @@ const content = computed(() => {
       :avatar="content.hero.avatar"
       :pre="content.hero.pre"
       :h1="content.hero.h1" />
+    <GeneralInfo v-if="content.info" :info="content.info" />
     <Jobs v-if="content.jobs" :jobs="content.jobs" />
     <Projects v-if="content.projects" :projects="content.projects" />
   </section>
