@@ -17,7 +17,7 @@ defineProps<{
           target="_blank"
           variant="solid"
           icon="ph:arrow-square-out"
-          >Live preview</Button
+          >Preview</Button
         >
         <Button
           v-if="project.urls.source"
@@ -25,7 +25,7 @@ defineProps<{
           target="_blank"
           variant="soft"
           icon="ph:github-logo"
-          >Bekijk op Github</Button
+          >Github</Button
         >
       </div>
     </div>

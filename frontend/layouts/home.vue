@@ -1,5 +1,5 @@
 <template>
-  <main class="w-full max-w-5xl mx-auto py-16">
+  <main class="w-full mx-auto py-16">
     <slot />
   </main>
 </template>

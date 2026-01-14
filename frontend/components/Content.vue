@@ -60,7 +60,7 @@ const content = computed(() => {
   <template v-if="error">
     <Error />
   </template>
-  <section v-else class="flex flex-col gap-28">
+  <section v-else class="flex flex-col gap-18">
     <Hero
       v-if="content.hero"
       :avatar="content.hero.avatar"
